@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Explorer</title>
+    <style>
+        body {
+            background-color: #f5eae3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #2c2f5c;
+            width: 400px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            width: 80px;
+            height: auto;
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .text-container h1, 
+        .text-container h2, 
+        .text-container h3, 
+        .text-container h4, 
+        .text-container h5 {
+            margin: 5px 0;
+            font-family: "Arial", sans-serif;
+            color: white;
+        }
+
+        h1 { font-size: 24px; }
+        h2 { font-size: 20px; }
+        h3 { font-size: 18px; font-weight: bold; }
+        h4 { font-size: 16px; }
+        h5 { font-size: 14px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="https://static.vecteezy.com/system/resources/previews/008/018/970/non_2x/astronaut-mascot-esport-gaming-logo-design-vector.jpg" alt="Space Explorer Logo 1">
+            <img src="https://cdn.mos.cms.futurecdn.net/AoWXgnHSxAAPxqymPQMQYL-1200-80.jpg" alt="Space Explorer Logo 2">
+        </div>
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWSyW8WN6Qde3eTY_S4m1ty3L5Y9zWVje4xA&s" alt="Nebula Image">
+        </div>
+        <div class="text-container">
+            <h1>welcome</h1>
+            <h2>to</h2>
+            <h3>my</h3>
+            <h4>space</h4>
+            <h5>explorer</h5>
+        </div>
+    </div>
+</body>
+</html>

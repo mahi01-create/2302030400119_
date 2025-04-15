@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Exploration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5ebe7;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        header {
+            background-color: #9e8478;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            font-family: "Courier New", monospace;
+        }
+
+        main {
+            background-color: #1a1a3d;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logos img {
+            width: 100px;
+            margin: 10px;
+        }
+
+        .image-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .image-section img {
+            width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>search</h1>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">mission</a></li>
+                <li><a href="#">space</a></li>
+                <li><a href="#">planets</a></li>
+                <li><a href="#">contact us!!</a></li>
+                <li><a href="#">control</a></li>
+                <li><a href="#">crafts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="logos">
+                <img src="https://static.vecteezy.com/system/resources/previews/008/018/970/non_2x/astronaut-mascot-esport-gaming-logo-design-vector.jpg" alt="Space Explorer Logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT57X-4O6vcGZXWxI8aVpmSbSKt3JHklqqV2g&s" alt="Space Explorer Logo">
+            </div>
+            <div class="image-section">
+                <img src="https://www.hindustantimes.com/ht-img/img/2023/10/23/550x309/justin-wolff-7a4F2FW32z4-unsplash_1698059388994_1698059409199.jpg" alt="Halley's Comet">
+                <img src="https://d.newsweek.com/en/full/2523680/astronaut.jpg?w=1200&f=40fa11b6cbbb98026c6957c00e3c793e" alt="Astronaut on Moon">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

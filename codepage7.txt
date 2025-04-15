@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Space Explorer</title>
+    <style>
+        body {
+            background-color: #0a0a2a;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 100px;
+            height: auto;
+            margin: 0 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-family: 'Times New Roman', serif;
+            text-transform: uppercase;
+        }
+
+        .contact-info {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+
+        .contact-info b {
+            color: #ffcc00;
+        }
+
+        .home-link {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+            margin-top: 20px;
+        }
+
+        .home-link:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsT8cQtY7PvA3xFo_T2beKLdcnDmbc1kg7w&s" alt="Space Explorer Logo">
+        </div>
+        <h1>Contact Us!!</h1>
+        <div class="contact-info">
+            <p>Hey from Space Explorer!!!</p>
+            <p>Hope you enjoy!! Please visit again.</p>
+            <p>If you have any queries, please contact us:</p>
+            <p><b>Phone:</b> 9687876983</p>
+            <p><b>Location:</b> Naranpura (Ahmedabad)</p>
+        </div>
+        <a href="index.html" class="home-link">Home</a>
+    </div>
+</body>
+</html>
